@@ -11,7 +11,7 @@ var $ = require('jquery');
 module.exports = {
 
   //省份
-  provinces: function () {
+  province: function () {
     return [
       {value: "", text: "请选择省份"},
       {value: "110000", text: "北京市"},
@@ -52,7 +52,7 @@ module.exports = {
   },
 
   //城市
-  cities: function () {
+  city: function () {
     return [
       {
         code: 110000,
@@ -568,7 +568,7 @@ module.exports = {
   },
 
   //县区
-  districts: function () {
+  district: function () {
     return [
       {
         code: 110100,
