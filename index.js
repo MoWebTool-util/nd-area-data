@@ -10,7 +10,7 @@ var $ = require('jquery');
 
 module.exports = {
 
-  //省
+  //省份
   provinces: function () {
     return [
       {value: "", text: "请选择省份"},
@@ -51,7 +51,7 @@ module.exports = {
     ];
   },
 
-  //省下的城市
+  //城市
   cities: function () {
     return [
       {
@@ -567,8 +567,8 @@ module.exports = {
     ];
   },
 
-  //市下的县
-  counties: function () {
+  //县区
+  districts: function () {
     return [
       {
         code: 110100,
