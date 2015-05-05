@@ -13,7 +13,6 @@ module.exports = {
   //省份
   province: function () {
     return [
-      {value: "", text: "请选择省份"},
       {value: "110000", text: "北京市"},
       {value: "120000", text: "天津市"},
       {value: "130000", text: "河北省"},
