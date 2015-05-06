@@ -14849,10 +14849,14 @@ module.exports = {
 
   //获取对应的市县
   getItems:function(list,code){
-    return $.grep(list, function (item, i) {
+    var arr= $.grep(list, function (item, i) {
       item.code = item.code || item.value;
-      return item.code + '' === '' + code && item[0].options;
+      return item.code + '' === '' + code && item;
     });
+
+    return arr&&arr.length?arr[0].options:[];
+
   }
+
 
 };
