@@ -14851,7 +14851,7 @@ module.exports = {
   getItems:function(list,code){
     return $.grep(list, function (item, i) {
       item.code = item.code || item.value;
-      return item.code + '' === '' + code && item;
+      return item.code + '' === '' + code && item[0].options;
     });
   }
 
