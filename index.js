@@ -14866,6 +14866,14 @@ module.exports = {
     return arr && arr.length ? arr[0].text : '';
   },
 
+  //返回对应名称的编码
+  getCodeByName:function(list,name){
+    var arr = list.filter(function (item) {
+      return item.text === name && item;
+    });
+    return arr && arr.length ? arr[0].value : '';
+  },
+
   convertCode: function (code) {
     return code + '';
   },
@@ -14927,6 +14935,23 @@ module.exports = {
 
     return this.getNameByCode(this.getDistrictList(code), code);
 
+  },
+
+  //根据省名称获取省编码
+  getProvinceCodeByName:function(name){
+    return this.getCodeByName(this.getProvinceList(), name);
+  },
+
+  //根据市名称获取市编码
+  getCityCodeByName:function(code,name){
+    //code为省编码350000
+    return this.getCodeByName(this.getCityList(code),name);
+  },
+
+  //根据地区名称获取地区编码
+  getDistrictCodeByName:function(code,name){
+    //code为市编码350100
+    return this.getCodeByName(this.getDistrictList(code), name);
   },
 
   //根据地区编码获取地区名称 例如:350200->福建省厦门市
