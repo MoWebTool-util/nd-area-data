@@ -9,7 +9,7 @@ var i = 0;
 var obj = {};
 var keys = [];
 var values = [];
-//console.log('ssss'.slice(0,1).toUpperCase()+'ssss'.slice(1,'ssss'.length));
+
 for (var key in enUS) {
   i++;
   var arr = nodePinYin(key, {
@@ -22,25 +22,24 @@ for (var key in enUS) {
 
     arr[m] = item.slice(0, 1).toUpperCase() + item.slice(1, len);
   }
-  console.log(i+'---'+arr.join(''));
+  console.log(i + '---' + arr.join(''));
   values.push(arr.join(''));
 }
 
-for(var key in zhCN){
+for (var key in zhCN) {
   keys.push(key);
 }
 
-for(var m=0;m<keys.length;m++){
-  obj[keys[m]]=values[m];
+for (var m = 0; m < keys.length; m++) {
+  obj[keys[m]] = values[m];
 }
 
 console.log(JSON.stringify(obj));
-fs.writeFile('./en-US-PinYin.json',JSON.stringify(obj),function(err){
- if(!err){
- console.log('拼音文件生成失败');
- }else{
- console.log('拼音文件生成成功');
- }
 
- });
-
+fs.writeFile('./en-US-PinYin.json', JSON.stringify(obj), function(err) {
+  if (!err) {
+    console.log('拼音文件生成失败');
+  } else {
+    console.log('拼音文件生成成功');
+  }
+});
