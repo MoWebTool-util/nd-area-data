@@ -879,7 +879,7 @@ module.exports = {
         text: '来宾市'
       }, {
         value: '451400',
-        text: ' 崇左市'
+        text: '崇左市'
       }]
     }, {
       code: 460000,
@@ -2572,10 +2572,10 @@ module.exports = {
         text: '交口县',
         value: '141130'
       }, {
-        text: ' 孝义县',
+        text: '孝义县',
         value: '141181'
       }, {
-        text: ' 汾阳县',
+        text: '汾阳县',
         value: '141182'
       }]
     }, {
@@ -4927,7 +4927,7 @@ module.exports = {
         text: '大观区',
         value: '340803'
       }, {
-        text: '郊区（宜秀区2005.6）',
+        text: '宜秀区',
         value: '340811'
       }, {
         text: '怀宁县',
@@ -5224,7 +5224,7 @@ module.exports = {
         text: '思明区',
         value: '350203'
       }, {
-        text: '海沧区（杏林区）',
+        text: '海沧区',
         value: '350205'
       }, {
         text: '湖里区',
@@ -6907,7 +6907,7 @@ module.exports = {
     }, {
       code: 411700,
       options: [{
-        text: '</li><li data-action=\'xian\' code=\'411702\'>驿城区',
+        text: '驿城区',
         value: '411701'
       }, {
         text: '西平县',
@@ -8608,7 +8608,7 @@ module.exports = {
         text: '市辖区',
         value: '451301'
       }, {
-        text: ' 兴宾区',
+        text: '兴宾区',
         value: '451302'
       }, {
         text: '忻城县',
@@ -9871,7 +9871,7 @@ module.exports = {
         text: '市辖区',
         value: '530701'
       }, {
-        text: ' 古城区',
+        text: '古城区',
         value: '530702'
       }, {
         text: '玉龙纳西族自治县',
@@ -9892,7 +9892,7 @@ module.exports = {
         text: '市辖区',
         value: '530801'
       }, {
-        text: ' 翠云区',
+        text: '翠云区',
         value: '530802'
       }, {
         text: '普洱哈尼族彝族自治县',
@@ -10894,7 +10894,7 @@ module.exports = {
         text: '市辖区',
         value: '620701'
       }, {
-        text: ' 甘州区',
+        text: '甘州区',
         value: '620702'
       }, {
         text: '肃南裕固族自治县',
@@ -10918,7 +10918,7 @@ module.exports = {
         text: '市辖区',
         value: '620801'
       }, {
-        text: ' 崆峒区',
+        text: '崆峒区',
         value: '620802'
       }, {
         text: '泾川县',
@@ -10945,7 +10945,7 @@ module.exports = {
         text: '市辖区',
         value: '620901'
       }, {
-        text: ' 肃州市',
+        text: '肃州市',
         value: '620902'
       }, {
         text: '金塔县',
@@ -11002,7 +11002,7 @@ module.exports = {
         text: '市辖区',
         value: '621101'
       }, {
-        text: ' 安定区',
+        text: '安定区',
         value: '621102'
       }, {
         text: '通渭县',
@@ -11350,7 +11350,7 @@ module.exports = {
         text: '市辖区',
         value: '640501'
       }, {
-        text: ' 沙坡头区',
+        text: '沙坡头区',
         value: '640502'
       }, {
         text: '中宁县',
