@@ -11735,6 +11735,7 @@ module.exports = {
 
   //返回对应名称的编码
   getCodeByName: function(list, name) {
+    if(!list) {return '';}
     list = list.filter(function(item) {
       return item.text === name;
     });
